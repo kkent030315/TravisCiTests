@@ -1,0 +1,8 @@
+language: cpp
+compiler:
+    - clang++
+    - g++
+
+script:
+  - make CXX=${CXX}
+  - ./main
